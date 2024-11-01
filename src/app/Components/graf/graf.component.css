@@ -1,0 +1,18 @@
+.stats-container {
+    text-align: center;  /* Centrar el contenido */
+}
+
+.health-container {
+    display: flex;       /* Usa flexbox para los corazones */
+    justify-content: center; /* Centrar los corazones horizontalmente */
+    gap: 5px;           /* Espacio entre los corazones */
+    margin-bottom: 10px; /* Espacio debajo de los corazones */
+}
+
+.attack-defense {
+    margin-top: 10px;   /* Espacio encima de las estadísticas */
+}
+
+.attack-defense p {
+    margin: 0;          /* Eliminar márgenes de los párrafos */
+}

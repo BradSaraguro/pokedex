@@ -1,0 +1,39 @@
+.pokedex-view {
+    height: 100vh;
+    width: 365px;
+    background-color: #ff4c4c; /* Fondo rojo claro */
+    border-radius: 15px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: flex-start; /* Alinear verticalmente desde arriba */
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    overflow: hidden; /* Ocultar desbordes */
+}
+
+.pokemon { 
+    width: 210%; /* Ancho ajustado */
+    height: 200px; /* Altura específica */
+    background-color: #fff; /* Cuadro blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin: 20px 0; /* Espacio entre cuadros */
+}
+
+.graf {
+    width: 210%; /* Igualar el ancho */
+    height: 200px; /* Igualar la altura */
+    background-color: #fff; /* Cuadro blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin: 20px 0; /* Espaciado consistente */
+}

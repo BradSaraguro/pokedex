@@ -1,0 +1,40 @@
+<div class="pokedex-view">
+    <div class="pokedex-header">
+        <div class="red-dots">
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+        </div>
+        <div class="camera"></div>
+    </div>
+
+    <div class="pokemon">
+        <app-pokemon [solicitarImagen]="pokemonImagen" (clickPokemon)="handlePokemon($event)"></app-pokemon>
+    </div>
+
+    <div class="graf">
+        <app-graf></app-graf>
+    </div>
+
+    <div class="controls">
+        <!-- Botones de dirección en forma de cruz -->
+        <div class="directional-buttons">
+            <button class="nav-button up" (click)="navegar('up')">&#9650;</button>
+            <button class="nav-button left" (click)="navegar('left')">&#9664;</button>
+            <button class="nav-button right" (click)="navegar('right')">&#9654;</button>
+            <button class="nav-button down" (click)="navegar('down')">&#9660;</button>
+        </div>
+        
+        <!-- Contenedor de Entrenador -->
+        <div class="trainer">
+            <h3>Entrenador</h3>
+            <p>Nombre: Ash Ketchum</p>
+            <p>Pokémon Favorito: Pikachu</p>
+            <img src="ruta/a/la/imagen-del-entrenador.png" alt="Entrenador" class="trainer-image">
+        </div>
+    </div>
+
+    <button class="cambiar-pokemon-btn" (click)="cambiarPokemon()">Cambiar Pokémon</button>
+    <div class="blue-circle"></div>
+    
+</div>
